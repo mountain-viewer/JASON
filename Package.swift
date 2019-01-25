@@ -13,7 +13,7 @@ let package = Package(
             name: "JASON",
             path: "Source"),
         .testTarget(
-            name: "JASOMTests",
-            dependencies: ["PMJSON"]),
+            name: "JASONTests",
+            dependencies: ["JASON"]),
         ]
 )
